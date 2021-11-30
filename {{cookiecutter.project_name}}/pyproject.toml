@@ -34,9 +34,9 @@ dynamic = ["version", "description"]
 name = "{{ cookiecutter.package_name }}"
 
 [project.urls]
-source = "https://github.com/{{ cookiecutter.github_org }}/{{ cookiecutter.project_name }}"
-tracker = "https://github.com/{{ cookiecutter.github_org }}/{{ cookiecutter.project_name }}/issues"
-documentation = "https://{{ cookiecutter.project_name }}.readthedocs.io"
+Source = "https://github.com/{{ cookiecutter.github_org }}/{{ cookiecutter.project_name }}"
+Tracker = "https://github.com/{{ cookiecutter.github_org }}/{{ cookiecutter.project_name }}/issues"
+Documentation = "https://{{ cookiecutter.project_name }}.readthedocs.io"
 
 [project.optional-dependencies]
 dev = [
